@@ -15,8 +15,8 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: aqQbG1s3JpPwnx1D0DhYj1WAJr6BQRXusA9Q30+B
-        aws-secret-access-key: aqQbG1s3JpPwnx1D0DhYj1WAJr6BQRXusA9Q30+B
+        aws-access-key-id:
+        aws-secret-access-key:
         aws-region: us-east-1
 
     - name: Deploy static site to S3 bucket
